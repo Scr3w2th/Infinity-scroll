@@ -5,6 +5,7 @@ let photosArray = [];
 
 // Unsplash API
 const count = 9;
+const proxyUrl = 'https://warm-cliffs-48235.herokuapp.com/'
 const apiKey = 'mGFZXbCmcmSjgpiSOpKCpVDSSqJBMv9veRNn7awxfRk';
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
